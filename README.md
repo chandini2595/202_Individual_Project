@@ -117,3 +117,32 @@ java -jar target/log-aggregator-1.0.0.jar --file input.txt
 	•	Jackson – JSON generation (jackson-databind)
 	•	JUnit 5 – unit testing framework
 	•	Maven Shade Plugin – for creating an executable fat JAR
+
+##  How to Clone and Run This Application
+
+Follow the steps below to clone the project, build it using Maven, and run the CLI tool.
+
+###  1. Clone the Repository
+```bash
+git clone https://github.com/chandini2595/202_Individual_Project.git
+cd 202_Individual_Project
+```
+
+###  2. Build the Project
+
+```
+mvn clean package
+```
+
+### 3. Run the Application
+
+```
+java -jar target/log-aggregator-1.0.0.jar --file input.txt
+```
+
+### 4. Output Files
+
+After successful execution, the following files will be created in the project directory:
+1. apm.json
+2. application.json
+3. request.json
